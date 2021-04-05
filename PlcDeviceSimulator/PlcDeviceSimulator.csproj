@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimaticPlcSim\SimaticPlcSim.csproj" />
+    <ProjectReference Include="..\SoDevices\SoDevices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Siemens.Simatic.Simulation.Runtime.Api.x64">
+      <HintPath>..\..\109739660_PLCSIM_Advanced_COSIM_APPL_V10\CoSimulationPlcSimAdv\Siemens.Simatic.Simulation.Runtime.Api.x64.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
